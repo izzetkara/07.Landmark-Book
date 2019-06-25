@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0872EF222C1C7A8005D232A /* canakkale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0872EF122C1C7A8005D232A /* canakkale.jpg */; };
 		E0FB000722C1301D00291DB4 /* istanbul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0FB000322C1301D00291DB4 /* istanbul.jpg */; };
 		E0FB000822C1301D00291DB4 /* izmir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0FB000422C1301D00291DB4 /* izmir.jpg */; };
 		E0FB000922C1301D00291DB4 /* antalya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0FB000522C1301D00291DB4 /* antalya.jpg */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0872EF122C1C7A8005D232A /* canakkale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canakkale.jpg; sourceTree = "<group>"; };
 		E0FB000322C1301D00291DB4 /* istanbul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istanbul.jpg; sourceTree = "<group>"; };
 		E0FB000422C1301D00291DB4 /* izmir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = izmir.jpg; sourceTree = "<group>"; };
 		E0FB000522C1301D00291DB4 /* antalya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antalya.jpg; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				E0FB000B22C1336D00291DB4 /* eskisehir.jpg */,
 				E0FB000522C1301D00291DB4 /* antalya.jpg */,
+				E0872EF122C1C7A8005D232A /* canakkale.jpg */,
 				E0FB000322C1301D00291DB4 /* istanbul.jpg */,
 				E0FB000422C1301D00291DB4 /* izmir.jpg */,
 			);
@@ -149,6 +152,7 @@
 				E0FB000922C1301D00291DB4 /* antalya.jpg in Resources */,
 				E0FBFFF622C12E1600291DB4 /* Main.storyboard in Resources */,
 				E0FB000822C1301D00291DB4 /* izmir.jpg in Resources */,
+				E0872EF222C1C7A8005D232A /* canakkale.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
