@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E0872EF222C1C7A8005D232A /* canakkale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0872EF122C1C7A8005D232A /* canakkale.jpg */; };
+		E0872EF422C1CBFF005D232A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0872EF322C1CBFF005D232A /* ImageViewController.swift */; };
 		E0FB000722C1301D00291DB4 /* istanbul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0FB000322C1301D00291DB4 /* istanbul.jpg */; };
 		E0FB000822C1301D00291DB4 /* izmir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0FB000422C1301D00291DB4 /* izmir.jpg */; };
 		E0FB000922C1301D00291DB4 /* antalya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0FB000522C1301D00291DB4 /* antalya.jpg */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		E0872EF122C1C7A8005D232A /* canakkale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canakkale.jpg; sourceTree = "<group>"; };
+		E0872EF322C1CBFF005D232A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		E0FB000322C1301D00291DB4 /* istanbul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istanbul.jpg; sourceTree = "<group>"; };
 		E0FB000422C1301D00291DB4 /* izmir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = izmir.jpg; sourceTree = "<group>"; };
 		E0FB000522C1301D00291DB4 /* antalya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antalya.jpg; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				E0FB000A22C1302700291DB4 /* images */,
 				E0FBFFF022C12E1600291DB4 /* AppDelegate.swift */,
 				E0FBFFF222C12E1600291DB4 /* ViewController.swift */,
+				E0872EF322C1CBFF005D232A /* ImageViewController.swift */,
 				E0FBFFF422C12E1600291DB4 /* Main.storyboard */,
 				E0FBFFF722C12E1700291DB4 /* Assets.xcassets */,
 				E0FBFFF922C12E1700291DB4 /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0FBFFF322C12E1600291DB4 /* ViewController.swift in Sources */,
+				E0872EF422C1CBFF005D232A /* ImageViewController.swift in Sources */,
 				E0FBFFF122C12E1600291DB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

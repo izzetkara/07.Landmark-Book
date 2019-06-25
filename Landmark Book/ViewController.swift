@@ -12,6 +12,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var landmarkNames = [String] ()
     var landmarkImage = [UIImage] ()
+    var selectedLandmarkName = ""
+    var selectedLanmarkImage = UIImage()
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -33,7 +35,25 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
         }
     }
+    
+    // Kod: Bir yer seçildiğinde ne yapacağını yazıyoruz.Alttaki kod. didSelectRowAt
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        selectedLandmarkName = landmarkNames[indexPath.row]
+        selectedLanmarkImage = landmarkImage [indexPath.row]
+        performSegue(withIdentifier: "toolImageViewController", sender: nil)
+    }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toolImageViewController" {
+            let destinationViewController = segue.destination as! ImageViewController
+            destinationViewController.landmarkName = selectedLandmarkName
+            destinationViewController.landmarkImage = selectedLanmarkImage
+            
+        }
+    }
+    
     @IBOutlet weak var tableView: UITableView!
     
     
@@ -48,8 +68,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         landmarkNames.append("Izmir")
         landmarkNames.append("Canakkale")
         
-        landmarkImage.append(UIImage(named: "eskisehir.jpg")!)
         landmarkImage.append(UIImage(named: "istanbul.jpg")!)
+        landmarkImage.append(UIImage(named: "eskisehir.jpg")!)
         landmarkImage.append(UIImage(named: "antalya.jpg")!)
         landmarkImage.append(UIImage(named: "izmir.jpg")!)
         landmarkImage.append(UIImage(named: "canakkale.jpg")!)
